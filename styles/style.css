@@ -496,7 +496,7 @@ html{
     margin-right: 5px;
 }
 
-.social-button i {
+#page-footer .social-button i {
     -moz-transition: 0.4s;
     -webkit-transition: 0.4s;
     transition: 0.4s;
@@ -514,7 +514,7 @@ html{
     position: relative;
     top: -2px;
 }
-.social-button i:hover{
+#page-footer .social-button i:hover{
     border-color: rgb(105, 105, 105);
 }
 .btn.framed, select.framed {
