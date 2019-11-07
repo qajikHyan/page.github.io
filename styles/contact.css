@@ -148,3 +148,16 @@ address .info a {
 .contact_img_wrapper{
     padding-top: 90px;
 }
+.error{
+    border-color: #ff513f !important;
+    color: #ff513f;
+}
+#company-form-name-error, #company-form-email-error, #company-form-message-error{
+    background-color: #ff513f;
+    color: #fff;
+    padding-left: 6px;
+    width: 100%;
+}
+.form-group>label>span{
+    color: #ff513f;
+}

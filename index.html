@@ -28,7 +28,7 @@
 	<div class="header">
 		<div class="wrapper">
 			<div class="brand">
-				<img src="images/logo/logo1.png" width="120px" alt="">
+				<a href="index.html"><img src="images/logo/logo1.png" width="120px" alt=""></a>
 			</div>
 			<nav class="navigation-items">
 				<div class="wrapper">
@@ -50,6 +50,7 @@
 	<div class="menu_wrapper">
 		<ul class="menu_ul">
 			<li><a href="index.html">Home</a></li>
+			<li><a href="contact.html">Contact Us</a></li>
 		</ul>
 		</div>
 	<div class="container-fluid">
@@ -363,8 +364,8 @@
 				if(!preloader.hasClass('done')){
 					preloader.addClass('done')
 				}
-			}, 1000)
-			})
+			}, 200)
+		})
 
 		if ($(window).width() <= 430) {  
 			$('.menu_ul').prepend($('.user-area>li'))
